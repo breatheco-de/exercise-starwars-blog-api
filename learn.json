@@ -2,7 +2,7 @@
   "difficulty": "easy",
   "duration": 8,
   "repository": "https://github.com/breatheco-de/exercise-starwars-api",
-  "preview": "",
+  "preview": "https://github.com/breatheco-de/exercise-starwars-api/blob/main/.learn/assets/preview.png?raw=true",
   "language": "python",
   "skills": ["api-development"],
   "description": "Practice building a REST APi using the Flask Framework, SQLAlchemy ORM and Python language. Ideal for juniors looking to practice API development in python.",
