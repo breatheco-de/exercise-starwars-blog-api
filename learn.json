@@ -1,0 +1,11 @@
+{
+  "difficulty": "easy",
+  "duration": 8,
+  "repository": "https://github.com/breatheco-de/exercise-starwars-api",
+  "preview": "",
+  "language": "python",
+  "skills": ["api-development"],
+  "description": "Practice building a REST APi using the Flask Framework, SQLAlchemy ORM and Python language. Ideal for juniors looking to practice API development in python.",
+  "title": "Building REST API's with Flask/Python",
+  "slug": "building-rest-apis-with-flaskpython"
+}
