@@ -32,6 +32,8 @@ El API no va a disponer de de un sistema de autenticación (por ahora), pero pod
 
 ## 🎯 Como empezar
 
+- Clona o abre en Gitpod (recomended) este [Flask API boilerplate](https://github.com/4GeeksAcademy/flask-rest-hello).
+- El boilerplate tiene un archivo README con instructiones y video de como usarlo y como construir un API.
 - Completa primero el tutorial interactivo sobre [como construir API's con Flask](https://github.com/breatheco-de/python-flask-api-tutorial).
 - Aun no te sientes con confianza? Empieza a programar y ve cometiendo errores, utiliza video tutoriales para apoyarte, asegurate de que los videos sean sobre construir API con Flask ya que Flask peude ser utilizar para construir website HTML tambien y eso no es lo que estamos haciendo en este proyecto.
 
