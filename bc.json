@@ -6,7 +6,7 @@
   "language": "python3",
   "skills": ["api-development"],
   "technologies": ["flask", "rest"],
-  "description": "Practice building a REST APi using the Flask Framework, SQLAlchemy ORM and Python language. Ideal for juniors looking to practice API development in python.",
-  "title": "Building REST API's with Flask/Python",
-  "slug": "building-rest-apis-with-flaskpython"
+  "description": "The StarWars Blog API will let you practice building a REST API using the Flask Framework, SQLAlchemy ORM and Python language. while building a fun blog. Ideal for juniors looking to practice API development in python.",
+  "title": "StarWars REST API with Flask/Python",
+  "slug": "exercise-starwars-blog-api"
 }
