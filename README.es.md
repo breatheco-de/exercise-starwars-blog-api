@@ -1,6 +1,6 @@
 # ![alt text](https://assets.breatheco.de/apis/img/images.php?blob&random&cat=icon&tags=breathecode,32) StarWars Blog API
 
-Es recomendad desarrollar este project en conjunto con el [StarWrs Blog Reading List](https://github.com/breatheco-de/exercise-starwars-blog-reading-list), eventualmente ese Front-End se integrará con el API que vas a desarrollar en este proyecto y tendrás una aplicación completamente funcional con Front-End y Back-End.
+Es recomendado desarrollar este project en conjunto con el [StarWrs Blog Reading List](https://github.com/breatheco-de/exercise-starwars-blog-reading-list), eventualmente ese Front-End se integrará con el API que vas a desarrollar en este proyecto y tendrás una aplicación completamente funcional con Front-End y Back-End.
 
 Hoy vamos a construir un API para administrar un blog (El Starwars Blog), los usuarios de este blog van a poder listar planetas, personas, y agregar o eliminer favoritos.
 
@@ -18,26 +18,33 @@ Utiliza el bolerplate [Flask API boilerplate](https://github.com/4GeeksAcademy/f
 
 Crea un API conectada a una base de datos implemente las siguientes fuctionalidades (my similares a SWAPI.dev or SWAPI.tech):
 
-- `[GET] /people` Get a list of all the people in the database
-- `[GET] /planets` Get a list of all the planets in the database
+- `[GET] /people` Listar todos los registros de `people` in la base de datos
+- `[GET] /planets` Listar los registros de `planets` en la base de datos
 
-Aditionally create the following endpoints to allow your StartWars blog to have users and favories:
+Adicionalmente necesitamos crear los siguientes endpoints para que podamos tener usuarios en nuestro blog:
 
-- `[GET] /users` Get a list of all the blog post users (⚠️ Note: your blog users, this en)
-- `[GET] /users/<int:user_id>/favorites` Get all the favorites that belong to the user with the id = `user_id`.
-- `[POST] /users/<int:user_id>/favorites` Add a new favorite to the user with the id = `user_id`.
-- `[DELETE] /favorite/<int:favorite_id>` Delete favorite with the id = `favorite_id`.
+- `[GET] /users` Listar todos los usuarios del blog
+- `[GET] /users/<int:user_id>/favorites` Listar todos los `favorites` que pertenecen al usuario con el id = `user_id`.
+- `[POST] /users/<int:user_id>/favorites` Agregar un nuevo favorito al usuario with the id = `user_id`.
+- `[DELETE] /favorite/<int:favorite_id>` Eliminar un favorito de un usuario con el id = `favorite_id`.
 
-Your current API does not have an authentication system (yet), that is why the only at to create users is directly on the database using the flask admin.
+El API no va a disponer de de un sistema de autenticación (por ahora), pero podemos crear usuarios directamente en la base de datos utizando el Flask admin: `https://url_de_tu_api/admin`
 
-## 📖 Fundamentals
+## 🎯 Como empezar
 
-This exercise will make you practice the following fundamentals:
+- Completa primero el tutorial interactivo sobre [como construir API's con Flask](https://github.com/breatheco-de/python-flask-api-tutorial).
+- Aun no te sientes con confianza? Empieza a programar y ve cometiendo errores, utiliza video tutoriales para apoyarte, asegurate de que los videos sean sobre construir API con Flask ya que Flask peude ser utilizar para construir website HTML tambien y eso no es lo que estamos haciendo en este proyecto.
 
-1. Building an RESTful API.
-2. Building a database with SQLAlchemy.
-3. Database Migrations.
+## 📖 Fundamentos
 
-## 😎 Feeling confident?
+Este ejercicio te permitira practicar las siguientes habilidades y conceptos:
 
-`+1` Create also an enpoint to add (POST), update (PUT), and delete (DELETE) planets and people, that way all the database information can be manage using the API instead of having to rely on the flask admin to create the plantes and people.
+1. Construcción de API's utilizanod el standard REST (A.k.a: RESTful API's)
+2. Construir una base de datos utilizando el **ORM** llamado [SQLAlchemy](https://www.sqlalchemy.org/).
+3. Utilizar y entender sistemas de migraciones de bases de datos con [Alembic](https://alembic.sqlalchemy.org/en/latest/).
+
+## 😎 Te sientes con confianza?
+
+Los siguients requerimientos no son necesarios para completar el projecto satisfactoriamente pero puedes desarrollarlos para continuar tu aprendizaje si te sientes con suficiente confianza.
+
+`+4` Crea API Endpoints para agregar (POST), modificar (PUT) y eliminar (DELETE) `planets` y `people`. De esta manera toda la base de datos va a poder ser administrada via API.

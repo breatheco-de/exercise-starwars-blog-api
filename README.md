@@ -29,17 +29,23 @@ Aditionally create the following endpoints to allow your StartWars blog to have 
 - `[GET] /users/<int:user_id>/favorites` Get all the favorites that belong to the user with the id = `user_id`.
 - `[POST] /users/<int:user_id>/favorites` Add a new favorite to the user with the id = `user_id`.
 - `[DELETE] /favorite/<int:favorite_id>` Delete favorite with the id = `favorite_id`.
+- Your current API does not have an authentication system (yet), that is why the only at to create users is directly on the database using the flask admin.
 
-Your current API does not have an authentication system (yet), that is why the only at to create users is directly on the database using the flask admin.
+## 🎯 How to start
+
+- There is an interactive tutorial on how to build a [Flask API for a todo list here](https://github.com/breatheco-de/python-flask-api-tutorial), its a similar process but instead of `tasks` here you will be dealing with `people` and `planets`.
+- Still not confident? What a video on building flask API's with flask.
 
 ## 📖 Fundamentals
 
 This exercise will make you practice the following fundamentals:
 
-1. Building an RESTful API.
-2. Building a database with SQLAlchemy.
-3. Database Migrations.
+1. Building an RESTful API using one of the most popular [libraries Python Flask](https://flask.palletsprojects.com/en/1.1.x/).
+2. Building a database with the **ORM** called [SQLAlchemy](https://www.sqlalchemy.org/).
+3. Database Migrations using migration system [Alembic](https://alembic.sqlalchemy.org/en/latest/).
 
 ## 😎 Feeling confident?
+
+The following requirements are not necesary to successfully complete this project, but you want try coding them if you feel like challenging yourself ☺️
 
 `+1` Create also an enpoint to add (POST), update (PUT), and delete (DELETE) planets and people, that way all the database information can be manage using the API instead of having to rely on the flask admin to create the plantes and people.
