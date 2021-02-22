@@ -33,6 +33,8 @@ Aditionally create the following endpoints to allow your StartWars blog to have 
 
 ## 🎯 How to start
 
+- Clone or open in Gitpod (recomended) this [Flask API boilerplate](https://github.com/4GeeksAcademy/flask-rest-hello).
+- The boiplerplate README file has a video on how to start and complete your API.
 - There is an interactive tutorial on how to build a [Flask API for a todo list here](https://github.com/breatheco-de/python-flask-api-tutorial), its a similar process but instead of `tasks` here you will be dealing with `people` and `planets`.
 - Still not confident? What a video on building flask API's with flask.
 
