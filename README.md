@@ -10,9 +10,18 @@ To allow users to do all of this, we must follow these steps:
 2. Build your endpoints using Flask.
 3. Constantly test your endpoitns with postman.
 
-## 💻 Installation
+## 🌱  How to start this project
 
-Use the [Flask API boilerplate](https://github.com/4GeeksAcademy/flask-rest-hello) to start this project, open it on Gitpod to avoid any local issues in your computer because you will need to have a database installed and python 3.7+ installed (all of that it's already installed on Gitpod).
+Do not clone this repository.
+
+1. The first step to start coding is cloning the [python boilerplate](https://github.com/4GeeksAcademy/flask-rest-hello) on your local computer or opening it using gitpod.
+
+a) If using Gitpod you can clone the boilerplate by [clicking here](https://github.com/4GeeksAcademy/flask-rest-hello)(best option: open it on Gitpod to avoid any local issues in your computer because you will need to have a database installed and python 3.7+ installed and all of that it's already installed on Gitpod).
+
+b) If working locally type the following command from your command line: `https://github.com/4GeeksAcademy/flask-rest-hello`.
+
+💡 Important: Remember to create a new repository, update the remote (`git remote set-url origin <your new url>`), and upload the code to your new repository using `add`, `commit` and `push`.
+
 
 ## 📝 Instructions
 
