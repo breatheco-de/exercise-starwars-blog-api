@@ -20,8 +20,7 @@ a) If using Gitpod (recommended) you can clone the boilerplate by [clicking here
 
 b) If working locally type the following command from your command line: `https://github.com/4GeeksAcademy/flask-rest-hello`.
 
-+ The boiplerplate README file has a video on how to start and complete your API.
-+ There is an interactive tutorial on how to build a [Flask API for a todo list here](https://github.com/breatheco-de/python-flask-api-tutorial), its a similar process but instead of `tasks` here you will be dealing with `people` and `planets`.
+The boiplerplate README file has a video on how to start and complete your API. There is an interactive tutorial on how to build a [Flask API for a todo list here](https://github.com/breatheco-de/python-flask-api-tutorial), its a similar process but instead of `tasks` here you will be dealing with `people` and `planets`.
 
 💡 Important: Remember to create a new repository, update the remote (`git remote set-url origin <your new url>`), and upload the code to your new repository using `add`, `commit` and `push`.
 
