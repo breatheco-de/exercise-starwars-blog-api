@@ -1,6 +1,6 @@
 # ![alt text](https://assets.breatheco.de/apis/img/images.php?blob&random&cat=icon&tags=breathecode,32) StarWars Blog API
 
-Es recomendado desarrollar este project en conjunto con el [StarWrs Blog Reading List](https://github.com/breatheco-de/exercise-starwars-blog-reading-list), eventualmente ese Front-End se integrará con el API que vas a desarrollar en este proyecto y tendrás una aplicación completamente funcional con Front-End y Back-End.
+Es recomendado desarrollar este project en conjunto con el [StarWras Blog Reading List](https://github.com/breatheco-de/exercise-starwars-blog-reading-list), eventualmente ese Front-End se integrará con el API que vas a desarrollar en este proyecto y tendrás una aplicación completamente funcional con Front-End y Back-End.
 
 Hoy vamos a construir un API para administrar un blog (El Starwars Blog), los usuarios de este blog van a poder listar planetas, personas, y agregar o eliminer favoritos.
 
@@ -10,11 +10,25 @@ Para permitir que los usuarios hagan todo esto, debemos seguir los siguientes pa
 2. Luego construye tus API Endpoints utilizando Flask, cada enpoint es una function que esta asociada a un URL y un metodo, por ejemplo `GET: /people`
 3. En paralelo a la construción de tus endpoints debes ir probando que funcionen utilizando [Postman](https://www.postman.com/).
 
-## 💻 Installation
+## 🌱  Cómo iniciar este proyecto
 
-Utiliza el bolerplate [Flask API boilerplate](https://github.com/4GeeksAcademy/flask-rest-hello) para empezar este proyecto, abrelo con Gitpod para eviar cualquier problema de configuracion local ya que utiliza una base de datos y python 3.7+ (todo eso ya viene instalado en Gitpod y tiende a ser engorroso de installar manualmente).
+No clones este repositorio.
 
-## 📝 Instructions
+El primer paso para comenzar a codificar es clonar el [flask boilerplate](https://github.com/4GeeksAcademy/flask-rest-hello) en tu compjutador local o con Gitpod.
+
+a) Si usas Gitpod puedes clonar el boilerplate [clic aquí](https://gitpod.io#https://github.com/4GeeksAcademy/flask-rest-hello).
+
+b) Si trabajas localmente, escribe el siguiente comando en tu terminal: 
+```sh
+$ git clone https://github.com/4GeeksAcademy/react-hello
+```
+(si trabajas localmente debees tener una base de datos y python 3.7+ pero puedes usar Gitpod, trae todo instalado)
+
+El boilerplate tiene un archivo README con instructiones y video de como usarlo y como construir un API. Puedes hacer este tutorial interactivo primero sobre [como construir API's con Flask](https://github.com/breatheco-de/python-flask-api-tutorial).
+
+💡 Importante: Recuerda actualizar el `remote` del proyecto con el de tu repositorio usando `git remote set-url origin <your new url>`, y luego guardar tu código en tu nuevo repositorio usando `add`, `commit` y `push`.
+
+## 📝 Instructiones
 
 Crea un API conectada a una base de datos implemente las siguientes fuctionalidades (my similares a SWAPI.dev or SWAPI.tech):
 
@@ -30,11 +44,8 @@ Adicionalmente necesitamos crear los siguientes endpoints para que podamos tener
 
 El API no va a disponer de de un sistema de autenticación (por ahora), pero podemos crear usuarios directamente en la base de datos utizando el Flask admin: `https://url_de_tu_api/admin`
 
-## 🎯 Como empezar
 
-- Clona o abre en Gitpod (recomended) este [Flask API boilerplate](https://github.com/4GeeksAcademy/flask-rest-hello).
-- El boilerplate tiene un archivo README con instructiones y video de como usarlo y como construir un API.
-- Completa primero el tutorial interactivo sobre [como construir API's con Flask](https://github.com/breatheco-de/python-flask-api-tutorial).
+
 - Aun no te sientes con confianza? Empieza a programar y ve cometiendo errores, utiliza video tutoriales para apoyarte, asegurate de que los videos sean sobre construir API con Flask ya que Flask peude ser utilizar para construir website HTML tambien y eso no es lo que estamos haciendo en este proyecto.
 
 ## 📖 Fundamentos
