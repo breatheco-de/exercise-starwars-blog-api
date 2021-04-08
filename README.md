@@ -16,7 +16,7 @@ Do not clone this repository.
 
 The first step to start coding is cloning the [flask boilerplate](https://github.com/4GeeksAcademy/flask-rest-hello).
 
-a) If using Gitpod (recommended) you can clone the boilerplate by [clicking here](https://github.com/4GeeksAcademy/flask-rest-hello)(best option: open it on Gitpod to avoid any local issues in your computer because you will need to have a database installed and python 3.7+ installed and all of that it's already installed on Gitpod).
+a) If using Gitpod (recommended) you can clone the boilerplate by [clicking here](https://github.com/4GeeksAcademy/flask-rest-hello)
 
 b) If working locally type the following command from your command line: 
 ```sh
