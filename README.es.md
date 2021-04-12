@@ -20,11 +20,11 @@ a) Si usas Gitpod puedes clonar el boilerplate [clic aquí](https://gitpod.io#ht
 
 b) Si trabajas localmente, escribe el siguiente comando en tu terminal: 
 ```sh
-$ git clone https://github.com/4GeeksAcademy/react-hello
+$ git clone https://gitpod.io#https://github.com/4GeeksAcademy/flask-rest-hello
 ```
 (si trabajas localmente debees tener una base de datos y python 3.7+ pero puedes usar Gitpod, trae todo instalado)
 
-El boilerplate tiene un archivo README con instructiones y video de como usarlo y como construir un API. Puedes hacer este tutorial interactivo primero sobre [como construir API's con Flask](https://github.com/breatheco-de/python-flask-api-tutorial).
+El boilerplate tiene un archivo README con instrucciones y un video de como usarlo y como construir un API. Puedes hacer este tutorial interactivo primero sobre [como construir API's con Flask](https://github.com/breatheco-de/python-flask-api-tutorial).
 
 💡 Importante: Recuerda actualizar el `remote` del proyecto con el de tu repositorio usando `git remote set-url origin <your new url>`, y luego guardar tu código en tu nuevo repositorio usando `add`, `commit` y `push`.
 
