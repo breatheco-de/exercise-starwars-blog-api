@@ -2,7 +2,7 @@
 
 It is recomended to develop this project in conjuntion with the [StartWars Blog Reading List](https://github.com/breatheco-de/exercise-starwars-blog-reading-list), you will eventually integrate both projects and have a fully functional applications with backend and front-end.
 
-Today we are going to build one API to manage a blog (about StartWars), uses on this blog will be able to list planets, list characters and create or remove favorites.
+Today we are going to build one API to manage a blog (about StartWars), users on this blog will be able to list planets, list characters and create or remove favorites.
 
 To allow users to do all of this, we must follow these steps:
 
@@ -47,15 +47,15 @@ Create an API that connects to a database and implements the following Endpoints
 
 Aditionally create the following endpoints to allow your StartWars blog to have users and favories:
 
-- `[GET] /users` Get a list of all the blog post users (⚠️ Note: your blog users, this en)
-- `[GET] /users/favorites` Get all the favorites that belong to the user current user.
+- `[GET] /users` Get a list of all the blog post users 
+- `[GET] /users/favorites` Get all the favorites that belong to the current user.
 - `[POST] /favorite/planet/<int:planet_id>` Add a new favorite planet to the current user with the planet id = `planet_id`.
 - `[POST] /favorite/people/<int:planet_id>` Add a new favorite people to the current user with the people id = `people_id`.
 - `[DELETE] /favorite/planet/<int:planet_id>` Delete favorite planet with the id = `planet_id`.
 - `[DELETE] /favorite/people/<int:people_id>` Delete favorite people with the id = `people_id`.
-- Your current API does not have an authentication system (yet), that is why the only at to create users is directly on the database using the flask admin.
+- Your current API does not have an authentication system (yet), that is why the only way to create users is directly on the database using the flask admin.
 
-Note here is a sample api in postman: 
+☝️ Note: here is a sample api in Postman: 
 https://documenter.getpostman.com/view/2432393/TzRSgnTS#a4174b48-3fc8-46e3-bf82-19a08107666f
 
 ## 📖 Fundamentals
