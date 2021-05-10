@@ -14,7 +14,7 @@ To allow users to do all of this, we must follow these steps:
 
 Do not clone this repository.
 
-The first step to start coding is cloning the [flask](https://github.com/4GeeksAcademy/flask-rest-hello) or the [express.js](https://github.com/breatheco-de/starwars-data-model-typeorm-node) boilerplate (depending on your cohorts main backend language).
+The first step to start coding is cloning the [flask](https://github.com/4GeeksAcademy/flask-rest-hello) or the [express.js](https://github.com/breatheco-de/starwars-data-model-typeorm-node) boilerplate (depending on your cohort main backend language).
 
 a) If using Gitpod (recommended) you can clone the **python** boilerplate by [clicking here](https://github.com/4GeeksAcademy/flask-rest-hello) or the **node.js** boilerplate by [clicking here](https://github.com/4GeeksAcademy/expressjs-rest-hello).
 
