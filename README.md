@@ -6,26 +6,32 @@ Today we are going to build one API to manage a blog (about StartWars), uses on 
 
 To allow users to do all of this, we must follow these steps:
 
-1. Start by modeling the database: Create a database and the tables needed to store that information, you may have already done this when you did the [StartWars DataModeling project](https://github.com/breatheco-de/exercise-starwars-data-modeling).
-2. Build your endpoints using Flask.
+1. Start by modeling the database: Create a database and the tables needed to store that information, you may have already done this when you did the StartWars DataModeling project in [python/flask](https://github.com/breatheco-de/exercise-starwars-data-modeling) or [node/express](https://github.com/breatheco-de/starwars-data-model-typeorm-node)
+2. Build your endpoints using Flask or Express (depending on your cohort main language).
 3. Constantly test your endpoitns with postman.
 
 ## 🌱  How to start this project
 
 Do not clone this repository.
 
-The first step to start coding is cloning the [flask boilerplate](https://github.com/4GeeksAcademy/flask-rest-hello).
+The first step to start coding is cloning the [flask](https://github.com/4GeeksAcademy/flask-rest-hello) or the [express.js](https://github.com/breatheco-de/starwars-data-model-typeorm-node) boilerplate (depending on your cohorts main backend language).
 
-a) If using Gitpod (recommended) you can clone the boilerplate by [clicking here](https://github.com/4GeeksAcademy/flask-rest-hello)
+a) If using Gitpod (recommended) you can clone the **python** boilerplate by [clicking here](https://github.com/4GeeksAcademy/flask-rest-hello) or the **node.js** boilerplate by [clicking here](https://github.com/4GeeksAcademy/expressjs-rest-hello).
 
 b) If working locally type the following command from your command line: 
 ```sh
-$ git clone https://github.com/4GeeksAcademy/flask-rest-hello`
+For Python/Flask:
+$ git clone https://github.com/4GeeksAcademy/flask-rest-hello
+
+For Node/Express.js:
+$ git clone https://github.com/4GeeksAcademy/expressjs-rest-hello
 ```
 (you will need to have a database installed and python 3.7+ installed if you do it locally but all of that it's already installed on Gitpod)
+ 
 
+The boiplerplate's README files has a video on how to start and complete your API. 
 
-The boiplerplate README file has a video on how to start and complete your API. There is an interactive tutorial on how to build a [Flask API for a todo list here](https://github.com/breatheco-de/python-flask-api-tutorial), its a similar process but instead of `tasks` here you will be dealing with `people` and `planets`.
+🐍 For python: There is an interactive tutorial on how to build a [Flask API](https://github.com/breatheco-de/python-flask-api-tutorial), its a similar process but instead of `tasks` here you will be dealing with `people` and `planets`.
 
 
 💡 Important: Remember to create a new repository, update the remote (`git remote set-url origin <your new url>`), and upload the code to your new repository using `add`, `commit` and `push`.
