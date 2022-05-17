@@ -45,7 +45,7 @@ Create an API that connects to a database and implements the following Endpoints
 - `[GET] /planets` Get a list of all the planets in the database
 - `[GET] /planets/<int:planet_id>` Get one single planet information
 
-Aditionally create the following endpoints to allow your StartWars blog to have users and favories:
+Aditionally create the following endpoints to allow your StartWars blog to have users and favorites:
 
 - `[GET] /users` Get a list of all the blog post users 
 - `[GET] /users/favorites` Get all the favorites that belong to the current user.
