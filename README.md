@@ -55,7 +55,7 @@ Aditionally create the following endpoints to allow your StartWars blog to have 
 - `[DELETE] /favorite/people/<int:people_id>` Delete favorite people with the id = `people_id`.
 - Your current API does not have an authentication system (yet), that is why the only way to create users is directly on the database using the flask admin.
 
-☝️ Note: here is a sample api in Postman: 
+☝️ Note: here is a sample API in Postman: 
 https://documenter.getpostman.com/view/2432393/TzRSgnTS#a4174b48-3fc8-46e3-bf82-19a08107666f
 
 ## 📖 Fundamentals
