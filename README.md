@@ -50,7 +50,7 @@ Aditionally create the following endpoints to allow your StartWars blog to have 
 - `[GET] /users` Get a list of all the blog post users 
 - `[GET] /users/favorites` Get all the favorites that belong to the current user.
 - `[POST] /favorite/planet/<int:planet_id>` Add a new favorite planet to the current user with the planet id = `planet_id`.
-- `[POST] /favorite/people/<int:planet_id>` Add a new favorite people to the current user with the people id = `people_id`.
+- `[POST] /favorite/people/<int:people_id>` Add a new favorite people to the current user with the people id = `people_id`.
 - `[DELETE] /favorite/planet/<int:planet_id>` Delete favorite planet with the id = `planet_id`.
 - `[DELETE] /favorite/people/<int:people_id>` Delete favorite people with the id = `people_id`.
 - Your current API does not have an authentication system (yet), that is why the only way to create users is directly on the database using the flask admin.
