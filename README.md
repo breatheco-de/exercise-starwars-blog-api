@@ -62,9 +62,9 @@ https://documenter.getpostman.com/view/2432393/TzRSgnTS#a4174b48-3fc8-46e3-bf82-
 
 This exercise will make you practice the following fundamentals:
 
-1. Building an RESTful API using one of the most popular [libraries Python Flask](https://flask.palletsprojects.com/en/1.1.x/).
-2. Building a database with the **ORM** called [SQLAlchemy](https://www.sqlalchemy.org/).
-3. Database Migrations using migration system [Alembic](https://alembic.sqlalchemy.org/en/latest/).
+1. Building an RESTful API using one of the most popular libraries [Python Flask](https://flask.palletsprojects.com/en/1.1.x/) or [Express.js](https://expressjs.com/).
+2. Building a database with the **ORM** called [SQLAlchemy](https://www.sqlalchemy.org/) or [TypeORM](https://typeorm.io/)
+3. Database Migrations using migration system [Alembic](https://alembic.sqlalchemy.org/en/latest/) or the native migration system from TypeORM.
 
 ## 😎 Feeling confident?
 
