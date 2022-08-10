@@ -26,7 +26,7 @@ $ git clone https://github.com/4GeeksAcademy/flask-rest-hello
 Para Node/Express.js:
 $ git clone https://github.com/4GeeksAcademy/expressjs-rest-hello
 ```
-(si trabajas localmente debes tener una base de datos y python 3.7+ pero puedes usar Gitpod, trae todo instalado)
+(si trabajas localmente debes tener una base de datos y Node.js o python 3.7+ pero puedes usar Gitpod, trae todo instalado)
 
 🐍 Para Python: El boilerplate tiene un archivo README con instrucciones y un video de como usarlo y como construir un API. Puedes hacer este tutorial interactivo primero sobre [como construir API's con Flask](https://github.com/breatheco-de/python-flask-api-tutorial).
 
@@ -59,8 +59,8 @@ https://documenter.getpostman.com/view/2432393/TzRSgnTS#a4174b48-3fc8-46e3-bf82-
 Este ejercicio te permitirá practicar las siguientes habilidades y conceptos:
 
 1. Construcción de API's utilizando el standard REST (A.k.a: RESTful API's)
-2. Construir una base de datos utilizando el **ORM** llamado [SQLAlchemy](https://www.sqlalchemy.org/).
-3. Utilizar y entender sistemas de migraciones de bases de datos con [Alembic](https://alembic.sqlalchemy.org/en/latest/).
+2. Construir una base de datos utilizando el **ORM** llamado [SQLAlchemy](https://www.sqlalchemy.org/) o TypeORM (https://typeorm.io/).
+3. Utilizar y entender sistemas de migraciones de bases de datos con [Alembic](https://alembic.sqlalchemy.org/en/latest/) o las migraciones nativas de TypeORM (en el caso de node.js).
 
 ## 😎 Te sientes con confianza?
 
