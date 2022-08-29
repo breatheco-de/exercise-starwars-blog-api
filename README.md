@@ -1,12 +1,12 @@
 # ![alt text](https://assets.breatheco.de/apis/img/images.php?blob&random&cat=icon&tags=breathecode,32) StarWars Blog API
 
-It is recomended to develop this project in conjuntion with the [StartWars Blog Reading List](https://github.com/breatheco-de/exercise-starwars-blog-reading-list), you will eventually integrate both projects and have a fully functional applications with backend and front-end.
+It is recomended to develop this project in conjuntion with the [StarWars Blog Reading List](https://github.com/breatheco-de/exercise-starwars-blog-reading-list), you will eventually integrate both projects and have a fully functional applications with backend and front-end.
 
-Today we are going to build one API to manage a blog (about StartWars), users on this blog will be able to list planets, list characters and create or remove favorites.
+Today we are going to build one API to manage a blog (about StarWars), users on this blog will be able to list planets, list characters and create or remove favorites.
 
 To allow users to do all of this, we must follow these steps:
 
-1. Start by modeling the database: Create a database and the tables needed to store that information, you may have already done this when you did the StartWars DataModeling project in [python/flask](https://github.com/breatheco-de/exercise-starwars-data-modeling) or [node/express](https://github.com/breatheco-de/starwars-data-model-typeorm-node)
+1. Start by modeling the database: Create a database and the tables needed to store that information, you may have already done this when you did the StarWars DataModeling project in [python/flask](https://github.com/breatheco-de/exercise-starwars-data-modeling) or [node/express](https://github.com/breatheco-de/starwars-data-model-typeorm-node)
 2. Build your endpoints using Flask or Express (depending on your cohort main language).
 3. Constantly test your endpoitns with postman.
 
@@ -45,12 +45,12 @@ Create an API that connects to a database and implements the following Endpoints
 - `[GET] /planets` Get a list of all the planets in the database
 - `[GET] /planets/<int:planet_id>` Get one single planet information
 
-Aditionally create the following endpoints to allow your StartWars blog to have users and favorites:
+Aditionally create the following endpoints to allow your StarWars blog to have users and favorites:
 
-- `[GET] /users` Get a list of all the blog post users 
+- `[GET] /users` Get a list of all the blog post users.
 - `[GET] /users/favorites` Get all the favorites that belong to the current user.
 - `[POST] /favorite/planet/<int:planet_id>` Add a new favorite planet to the current user with the planet id = `planet_id`.
-- `[POST] /favorite/people/<int:planet_id>` Add a new favorite people to the current user with the people id = `people_id`.
+- `[POST] /favorite/people/<int:people_id>` Add a new favorite people to the current user with the people id = `people_id`.
 - `[DELETE] /favorite/planet/<int:planet_id>` Delete favorite planet with the id = `planet_id`.
 - `[DELETE] /favorite/people/<int:people_id>` Delete favorite people with the id = `people_id`.
 - Your current API does not have an authentication system (yet), that is why the only way to create users is directly on the database using the flask admin.
