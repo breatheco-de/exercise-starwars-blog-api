@@ -8,5 +8,6 @@
   "technologies": ["flask", "rest"],
   "description": "The StarWars Blog API will let you practice building a REST API using lightweight API frameworks like Express (for node) or Flask (for python) using SQLAlchemy ORM and Python language. while building a fun blog. Ideal for juniors looking to practice API development in python.",
   "title": "Build a StarWars REST API",
+  "projectType": "project",
   "slug": "exercise-starwars-blog-api"
 }
