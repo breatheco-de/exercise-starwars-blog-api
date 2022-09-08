@@ -16,7 +16,7 @@ No clones este repositorio.
 
 El primer paso para comenzar a codificar es clonar el [flask boilerplate](https://github.com/4GeeksAcademy/flask-rest-hello) o el [express.js boilerplate](https://github.com/breatheco-de/starwars-data-model-typeorm-node), esto dependerá del principal lenguaje de backend de tu clase.
 
-a) Si usas Gitpod (recomendado) puedes clonar el boilerplate de **python**[haciendo clic aquí](https://github.com/4GeeksAcademy/flask-rest-hello) o el boilerplate de **node.js** [haciendo clic aquí](https://github.com/4GeeksAcademy/expressjs-rest-hello).
+a) Si usas Gitpod (recomendado) puedes clonar el boilerplate de **python** [haciendo clic aquí](https://github.com/4GeeksAcademy/flask-rest-hello) o el boilerplate de **node.js** [haciendo clic aquí](https://github.com/4GeeksAcademy/expressjs-rest-hello).
 
 b) Si trabajas localmente, escribe el siguiente comando en tu terminal: 
 ```sh
