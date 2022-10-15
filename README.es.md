@@ -46,7 +46,7 @@ Adicionalmente necesitamos crear los siguientes endpoints para que podamos tener
 - `[GET] /users` Listar todos los usuarios del blog 
 - `[GET] /users/favorites` Listar todos los favoritos que pertenecen al usuario actual.
 - `[POST] /favorite/planet/<int:planet_id>` Añade un nuevo `planet` favorito al usuario actual con el planet id = `planet_id`.
-- `[POST] /favorite/people/<int:planet_id>` Añade una nueva `people` favorita al usuario actual con el people.id = `people_id`.
+- `[POST] /favorite/people/<int:people_id>` Añade una nueva `people` favorita al usuario actual con el people.id = `people_id`.
 - `[DELETE] /favorite/planet/<int:planet_id>` Elimina un `planet` favorito con el id = planet_id`.
 - `[DELETE] /favorite/people/<int:people_id>` Elimina una `people` favorita con el id = `people_id`.
 - Tu API actual no tiene un sistema de autenticación (todavía), es por eso que la única forma de crear usuarios es directamente en la base de datos usando el flask admin.
