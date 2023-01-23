@@ -1,4 +1,6 @@
+<!--hide-->
 # ![alt text](https://assets.breatheco.de/apis/img/images.php?blob&random&cat=icon&tags=breathecode,32) StarWars Blog API
+<!--endhide--> 
 
 Es recomendado desarrollar este proyecto en conjunto con el [StarWars Blog Reading List](https://github.com/breatheco-de/exercise-starwars-blog-reading-list), eventualmente ese Front-End se integrará con el API que vas a desarrollar en este proyecto y tendrás una aplicación completamente funcional con Front-End y Back-End.
 
@@ -41,7 +43,7 @@ Crea un API conectada a una base de datos e implemente los siguientes endpoints 
 - `[GET] /planets` Listar los registros de `planets` en la base de datos
 - `[GET] /planets/<int:planet_id>` Listar la información de un solo `planet`
 
-Adicionalmente necesitamos crear los siguientes endpoints para que podamos tener usuarios en nuestro blog:
+Adicionalmente, necesitamos crear los siguientes endpoints para que podamos tener usuarios en nuestro blog:
 
 - `[GET] /users` Listar todos los usuarios del blog 
 - `[GET] /users/favorites` Listar todos los favoritos que pertenecen al usuario actual.
@@ -64,6 +66,6 @@ Este ejercicio te permitirá practicar las siguientes habilidades y conceptos:
 
 ## 😎 Te sientes con confianza?
 
-Los siguients requerimientos no son necesarios para completar el projecto satisfactoriamente pero puedes desarrollarlos para continuar tu aprendizaje si te sientes con suficiente confianza.
+Los siguientes requerimientos no son necesarios para completar el proyecto satisfactoriamente, pero puedes desarrollarlos para continuar tu aprendizaje si te sientes con suficiente confianza.
 
-`+4` Crea API Endpoints para agregar (POST), modificar (PUT) y eliminar (DELETE) `planets` y `people`. De esta manera toda la base de datos va a poder ser administrada via API.
+`+4` Crea API Endpoints para agregar (POST), modificar (PUT) y eliminar (DELETE) `planets` y `people`. De esta manera, toda la base de datos va a poder ser administrada via API.
