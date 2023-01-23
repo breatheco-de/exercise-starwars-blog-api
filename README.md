@@ -1,5 +1,5 @@
 <!--hide-->
-# ![alt text](https://assets.breatheco.de/apis/img/images.php?blob&random&cat=icon&tags=breathecode,32) StarWars Blog API
+# StarWars Blog API
 <!--endhide--> 
 
 It is recommended to develop this project in conjuntion with the [StartWars Blog Reading List](https://github.com/breatheco-de/exercise-starwars-blog-reading-list), you will eventually integrate both projects and have fully functional applications with backend and front-end.
