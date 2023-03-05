@@ -10,7 +10,7 @@ Para permitir que los usuarios hagan todo esto, debemos seguir los siguientes pa
 
 1. Comienza por modelar la base de datos: crea una base de datos y las tablas necesarias para almacenar esa información, es posible que ya lo hayas hecho en el proyecto StartWars DataModeling en [python/flask](https://github.com/breatheco-de/exercise-starwars-data-modeling) o [node/express](https://github.com/breatheco-de/starwars-data-model-typeorm-node)
 2. Crea tus endpoints finales utilizando Flask o Express (según el idioma principal de tu clase).
-3. Prueba constantemente endpoints con Postman.
+3. Prueba constantemente los endpoints con Postman.
 
 ## 🌱  Cómo iniciar este proyecto
 
