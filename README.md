@@ -14,29 +14,29 @@ To allow users to do all of this, we must follow these steps:
 
 ## 🌱  How to start this project
 
-Do not clone this repository.
+Do not clone this repository because we are going to be using a different template.
 
-The first step to start coding is cloning the [flask](https://github.com/4GeeksAcademy/flask-rest-hello) or the [express.js](https://github.com/breatheco-de/starwars-data-model-typeorm-node) boilerplate (depending on your cohort main backend language).
+We recommend opening the `flask` or the ``express.js boilerplate` using a provisioning tool like [Codespaces](https://4geeks.com/lesson/what-is-github-codespaces) (recommended) or [Gitpod](https://4geeks.com/lesson/how-to-use-gitpod). Alternatively, you can clone it on your local computer using the `git clone` command.
 
-a) If using Gitpod (recommended) you can clone the **python** boilerplate by [clicking here](https://github.com/4GeeksAcademy/flask-rest-hello) or the **node.js** boilerplate by [clicking here](https://github.com/4GeeksAcademy/expressjs-rest-hello).
+These are the repositories you need to open or clone:
 
-b) If working locally, type the following command from your command line: 
-```sh
+```
 For Python/Flask:
-$ git clone https://github.com/4GeeksAcademy/flask-rest-hello
+https://github.com/4GeeksAcademy/flask-rest-hello
 
 For Node/Express.js:
-$ git clone https://github.com/4GeeksAcademy/expressjs-rest-hello
+https://github.com/4GeeksAcademy/expressjs-rest-hell
 ```
+
 (you will need to have a database installed and python 3.7+ installed if you do it locally but all of that it's already installed on Gitpod)
  
-
 The boiplerplate's README files has a video on how to start and complete your API. 
 
 🐍 For python: There is an interactive tutorial on how to build a [Flask API](https://github.com/breatheco-de/python-flask-api-tutorial), it's a similar process but instead of `tasks` here you will be dealing with `people` and `planets`.
 
+**👉 Please follow these steps on** [how to start a coding project](https://4geeks.com/lesson/how-to-start-a-project).
 
-💡 Important: Remember to create a new repository, update the remote (`git remote set-url origin <your new url>`), and upload the code to your new repository using `add`, `commit` and `push`.
+💡 Important: Remember to save and upload your code to GitHub by creating a new repository, updating the remote (`git remote set-url origin <your new url>`), and uploading the code to your new repository using the `add`, `commit` and `push` commands from the git terminal.
 
 ## 📝 Instructions
 
@@ -73,3 +73,5 @@ This exercise will make you practice the following fundamentals:
 The following requirements are not necessary to successfully complete this project, but you wpuld like to try coding them if you feel like challenging yourself ☺️
 
 `+1` Create also an endpoint to add (POST), update (PUT), and delete (DELETE) planets and people, that way all the database information can be managed using the API instead of having to rely on the flask admin to create the plantes and people.
+
+This and many other projects are built by students as part of the 4Geeks Academy [Coding Bootcamp](https://4geeksacademy.com/us/coding-bootcamp) by [Alejandro Sanchez](https://twitter.com/alesanchezr) and many other contributors. Find out more about our [Full Stack Developer Course](https://4geeksacademy.com/us/coding-bootcamps/part-time-full-stack-developer), and [Data Science Bootcamp](https://4geeksacademy.com/us/coding-bootcamps/datascience-machine-learning).

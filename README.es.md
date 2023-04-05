@@ -12,27 +12,29 @@ Para permitir que los usuarios hagan todo esto, debemos seguir los siguientes pa
 2. Crea tus endpoints finales utilizando Flask o Express (según el idioma principal de tu clase).
 3. Prueba constantemente endpoints con Postman.
 
-## 🌱  Cómo iniciar este proyecto
+## 🌱 Cómo comenzar este proyecto
 
-No clones este repositorio.
+No clones este repositorio porque vamos a usar una plantilla diferente.
 
-El primer paso para comenzar a codificar es clonar el [flask boilerplate](https://github.com/4GeeksAcademy/flask-rest-hello) o el [express.js boilerplate](https://github.com/breatheco-de/starwars-data-model-typeorm-node), esto dependerá del principal lenguaje de backend de tu clase.
+Recomendamos abrir el `flask boilerplate o el express.js boilerplate` usando una herramienta de aprovisionamiento como [Codespaces](https://4geeks.com/es/lesson/tutorial-de-github-codespaces) (recomendado) o [Gitpod](https://4geeks.com/es/lesson/como-utilizar-gitpod). Alternativamente, puedes clonarlo en tu computadora local usando el comando `git clone`.
 
-a) Si usas Gitpod (recomendado) puedes clonar el boilerplate de **python**[haciendo clic aquí](https://github.com/4GeeksAcademy/flask-rest-hello) o el boilerplate de **node.js** [haciendo clic aquí](https://github.com/4GeeksAcademy/expressjs-rest-hello).
+Estos son los repositorios que necesitas abrir o clonar:
 
-b) Si trabajas localmente, escribe el siguiente comando en tu terminal: 
-```sh
+```
 Para Python/Flask:
-$ git clone https://github.com/4GeeksAcademy/flask-rest-hello
+https://github.com/4GeeksAcademy/flask-rest-hello
 
 Para Node/Express.js:
-$ git clone https://github.com/4GeeksAcademy/expressjs-rest-hello
+https://github.com/4GeeksAcademy/expressjs-rest-hello
 ```
+
 (si trabajas localmente debes tener una base de datos y Node.js o python 3.7+ pero puedes usar Gitpod, trae todo instalado)
 
 🐍 Para Python: El boilerplate tiene un archivo README con instrucciones y un video de como usarlo y como construir un API. Puedes hacer este tutorial interactivo primero sobre [como construir API's con Flask](https://github.com/breatheco-de/python-flask-api-tutorial).
 
-💡 Importante: Recuerda actualizar el `remote` del proyecto con el de tu repositorio usando `git remote set-url origin <your new url>`, y luego guardar tu código en tu nuevo repositorio usando `add`, `commit` y `push`.
+**👉 Por favor sigue estos pasos** [cómo comenzar un proyecto de codificación](https://4geeks.com/es/lesson/como-comenzar-un-proyecto-de-codificacion).
+
+💡 Importante: Recuerda guardar y subir tu código a GitHub creando un nuevo repositorio, actualizando el remoto (`git remote set-url origin <your new url>`) y subiendo el código a tu nuevo repositorio usando los comandos `add`, `commit` y `push` desde la terminal de git.
 
 ## 📝 Instrucciones
 
@@ -69,3 +71,5 @@ Este ejercicio te permitirá practicar las siguientes habilidades y conceptos:
 Los siguientes requerimientos no son necesarios para completar el proyecto satisfactoriamente, pero puedes desarrollarlos para continuar tu aprendizaje si te sientes con suficiente confianza.
 
 `+4` Crea API Endpoints para agregar (POST), modificar (PUT) y eliminar (DELETE) `planets` y `people`. De esta manera, toda la base de datos va a poder ser administrada via API.
+
+Este y otros proyectos son usados para [aprender a programar](https://4geeksacademy.com/es/aprender-a-programar/aprender-a-programar-desde-cero) por parte de los alumnos de 4Geeks Academy [Coding Bootcamp](https://4geeksacademy.com/us/coding-bootcamp) realizado por [Alejandro Sánchez](https://twitter.com/alesanchezr) y muchos otros contribuyentes. Conoce más sobre nuestros [Curso de Programación](https://4geeksacademy.com/es/curso-de-programacion-desde-cero?lang=es) para convertirte en [Full Stack Developer](https://4geeksacademy.com/es/coding-bootcamps/desarrollador-full-stack/?lang=es), o nuestro [Data Science Bootcamp](https://4geeksacademy.com/es/coding-bootcamps/curso-datascience-machine-learning).
