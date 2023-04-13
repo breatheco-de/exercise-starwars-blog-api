@@ -25,7 +25,7 @@ These are the repositories you need to open or clone:
 https://github.com/4GeeksAcademy/flask-rest-hello
 
 👩🏽‍💻 For Node/Express.js:
-https://github.com/4GeeksAcademy/expressjs-rest-hell
+https://github.com/4GeeksAcademy/expressjs-rest-hello
 ```
 
 (you will need to have a database installed and python 3.7+ installed if you do it locally but all of that it's already installed on Gitpod)
