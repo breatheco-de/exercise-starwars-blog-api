@@ -20,11 +20,11 @@ We recommend opening the `flask template` or the `express.js template` using a p
 
 These are the repositories you need to open or clone:
 
-```
-For Python/Flask:
+```txt
+🐍 For Python/Flask:
 https://github.com/4GeeksAcademy/flask-rest-hello
 
-For Node/Express.js:
+👩🏽‍💻 For Node/Express.js:
 https://github.com/4GeeksAcademy/expressjs-rest-hell
 ```
 
