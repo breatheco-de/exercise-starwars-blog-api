@@ -16,15 +16,15 @@ Para permitir que los usuarios hagan todo esto, debemos seguir los siguientes pa
 
 No clones este repositorio porque vamos a usar una plantilla diferente.
 
-Recomendamos abrir el `flask boilerplate o el express.js boilerplate` usando una herramienta de aprovisionamiento como [Codespaces](https://4geeks.com/es/lesson/tutorial-de-github-codespaces) (recomendado) o [Gitpod](https://4geeks.com/es/lesson/como-utilizar-gitpod). Alternativamente, puedes clonarlo en tu computadora local usando el comando `git clone`.
+Recomendamos abrir el `flask template` o el `express.js template` usando una herramienta de aprovisionamiento como [Codespaces](https://4geeks.com/es/lesson/tutorial-de-github-codespaces) (recomendado) o [Gitpod](https://4geeks.com/es/lesson/como-utilizar-gitpod). Alternativamente, puedes clonarlo en tu computadora local usando el comando `git clone`.
 
 Estos son los repositorios que necesitas abrir o clonar:
 
 ```
-Para Python/Flask:
+🐍 Para Python/Flask:
 https://github.com/4GeeksAcademy/flask-rest-hello
 
-Para Node/Express.js:
+👩🏽‍💻 Para Node/Express.js:
 https://github.com/4GeeksAcademy/expressjs-rest-hello
 ```
 
