@@ -70,7 +70,7 @@ This exercise will make you practice the following fundamentals:
 
 ## 😎 Feeling confident?
 
-The following requirements are not necessary to successfully complete this project, but you wpuld like to try coding them if you feel like challenging yourself ☺️
+The following requirements are not necessary to successfully complete this project, but you would like to try coding them if you feel like challenging yourself ☺️
 
 `+1` Create also an endpoint to add (POST), update (PUT), and delete (DELETE) planets and people, that way all the database information can be managed using the API instead of having to rely on the flask admin to create the plantes and people.
 
