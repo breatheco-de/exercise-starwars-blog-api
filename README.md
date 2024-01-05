@@ -8,7 +8,7 @@ Today we are going to build an API to manage a blog (about StarWars). Users on t
 
 To allow users to do all of this, we must follow these steps:
 
-1. Start by modeling the database: Create a database and the tables needed to store that information. You may have already done this when you did the StarWars Data Modeling project in [python/flask](https://github.com/breatheco-de/exercise-starwars-data-modeling) or [node/express](https://github.com/breatheco-de/starwars-data-model-typeorm-node)
+1. Start by modeling the database: Create a database and the tables needed to store that information. You may have already done this when you did the StarWars Data Modeling project in [python/flask](https://github.com/breatheco-de/exercise-starwars-data-modeling) or [node/express](https://github.com/breatheco-de/starwars-data-model-typeorm-node).
 2. Build your endpoints using Flask or Express (depending on your cohort's main language).
 3. Constantly test your endpoints with [Postman](https://www.postman.com/).
 
@@ -28,7 +28,7 @@ https://github.com/4GeeksAcademy/flask-rest-hello
 https://github.com/4GeeksAcademy/expressjs-rest-hello
 ```
 
-> ⚠ You will need to have a database installed and Python 3.7+ installed if you do it locally, but all of that is already installed on Codespaces or Gitpod.
+> ⚠ You will need to have a database installed and Node.js or Python 3.7+ installed if you do it locally, but all of that is already installed on Codespaces or Gitpod.
  
 The boilerplate's README files have a video on how to start and complete your API. 
 
@@ -51,10 +51,10 @@ Additionally, create the following endpoints to allow your StarWars blog to have
 
 - `[GET] /users` Get a list of all the blog post users.
 - `[GET] /users/favorites` Get all the favorites that belong to the current user.
-- `[POST] /favorite/planet/<int:planet_id>` Add a new favorite planet to the current user with the planet id = `planet_id`.
-- `[POST] /favorite/people/<int:people_id>` Add new favorite people to the current user with the people id = `people_id`.
-- `[DELETE] /favorite/planet/<int:planet_id>` Delete a favorite planet with the id = `planet_id`.
-- `[DELETE] /favorite/people/<int:people_id>` Delete a favorite people with the id = `people_id`.
+- `[POST] /favorite/planet/<int:planet_id>` Add a new favorite `planet` to the current user with the planet id = `planet_id`.
+- `[POST] /favorite/people/<int:people_id>` Add new favorite `people` to the current user with the people id = `people_id`.
+- `[DELETE] /favorite/planet/<int:planet_id>` Delete a favorite `planet` with the id = `planet_id`.
+- `[DELETE] /favorite/people/<int:people_id>` Delete a favorite `people` with the id = `people_id`.
 - Your current API does not have an authentication system (yet), which is why the only way to create users is directly on the database using the Flask admin.
 
 > Note: here is a sample API in Postman: https://documenter.getpostman.com/view/2432393/TzRSgnTS#a4174b48-3fc8-46e3-bf82-19a08107666f
@@ -71,6 +71,6 @@ This exercise will make you practice the following fundamentals:
 
 The following requirements are not necessary to successfully complete this project, but you would like to try coding them if you feel like challenging yourself ☺️
 
-`+1` Create also an endpoint to add (POST), update (PUT), and delete (DELETE) planets and people. That way all the database information can be managed using the API instead of having to rely on the Flask admin to create the planets and people.
+`+4` Create also an endpoint to add (POST), update (PUT), and delete (DELETE) planets and people. That way all the database information can be managed using the API instead of having to rely on the Flask admin to create the planets and people.
 
 This and many other projects are built by students as part of the 4Geeks Academy [Coding Bootcamp](https://4geeksacademy.com/us/coding-bootcamp) by [Alejandro Sanchez](https://twitter.com/alesanchezr) and many other contributors. Find out more about our [Full Stack Developer Course](https://4geeksacademy.com/us/coding-bootcamps/part-time-full-stack-developer), and [Data Science Bootcamp](https://4geeksacademy.com/us/coding-bootcamps/datascience-machine-learning).
