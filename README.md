@@ -71,6 +71,6 @@ This exercise will make you practice the following fundamentals:
 
 The following requirements are not necessary to successfully complete this project, but you would like to try coding them if you feel like challenging yourself ☺️
 
-`+4` Create also an endpoint to add (POST), update (PUT), and delete (DELETE) planets and people. That way all the database information can be managed using the API instead of having to rely on the Flask admin to create the planets and people.
+`+4` Create also endpoints to add (POST), update (PUT), and delete (DELETE) planets and people. That way all the database information can be managed using the API instead of having to rely on the Flask admin to create the planets and people.
 
 This and many other projects are built by students as part of the 4Geeks Academy [Coding Bootcamp](https://4geeksacademy.com/us/coding-bootcamp) by [Alejandro Sanchez](https://twitter.com/alesanchezr) and many other contributors. Find out more about our [Full Stack Developer Course](https://4geeksacademy.com/us/coding-bootcamps/part-time-full-stack-developer), and [Data Science Bootcamp](https://4geeksacademy.com/us/coding-bootcamps/datascience-machine-learning).
