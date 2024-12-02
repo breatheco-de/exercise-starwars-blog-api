@@ -1,6 +1,7 @@
 {
   "difficulty": "easy",
   "duration": 8,
+  "template_url": ["https://github.com/4GeeksAcademy/flask-rest-hello", "https://github.com/4GeeksAcademy/expressjs-rest-hello"],
   "repository": "https://github.com/breatheco-de/exercise-starwars-api",
   "solution": "https://github.com/breatheco-de/exercise-starwars-blog-api/tree/solution",
   "preview": "https://github.com/breatheco-de/exercise-starwars-api/blob/main/.learn/assets/preview.png?raw=true",
