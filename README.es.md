@@ -12,6 +12,8 @@ Para permitir que los usuarios hagan todo esto, debemos seguir los siguientes pa
 2. Crea tus endpoints utilizando Flask o Express (según el lenguaje principal de tu clase).
 3. Prueba constantemente tus endpoints con [Postman](https://www.postman.com/).
 
+<onlyfor saas="false" withBanner="false">
+  
 ## 🌱 Cómo comenzar este proyecto
 
 No clones este repositorio porque vamos a usar una plantilla diferente.
@@ -35,6 +37,8 @@ https://github.com/4GeeksAcademy/expressjs-rest-hello
 **👉 Por favor sigue estos pasos sobre** [cómo comenzar un proyecto de programación](https://4geeks.com/es/lesson/como-comenzar-un-proyecto-de-codificacion).
 
 > 💡 Importante: Recuerda guardar y subir tu código a GitHub creando un nuevo repositorio, actualizando el remoto (`git remote set-url origin <your new url>`) y subiendo el código a tu nuevo repositorio usando los comandos `add`, `commit` y `push` desde la terminal de git.
+
+</onlyfor>
 
 ## 📝 Instrucciones
 
