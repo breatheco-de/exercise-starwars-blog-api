@@ -1,14 +1,20 @@
 {
-  "difficulty": "easy",
+  "difficulty": "beginner",
   "duration": 8,
   "repository": "https://github.com/breatheco-de/exercise-starwars-api",
   "solution": "https://github.com/breatheco-de/exercise-starwars-blog-api/tree/solution",
   "preview": "https://github.com/breatheco-de/exercise-starwars-api/blob/main/.learn/assets/preview.png?raw=true",
   "language": "python3",
   "skills": ["api-development"],
-  "technologies": ["flask", "rest", "node", "python"],
-  "description": "The StarWars Blog API will let you practice building a REST API using lightweight API frameworks like Express (for node) or Flask (for python) using SQLAlchemy ORM and Python language. while building a fun blog. Ideal for juniors looking to practice API development in python.",
-  "title": "Build a StarWars REST API",
+  "technologies": ["flask", "rest", "python","sqlalchemy", "postman"],
+  "description": {
+    "en": "The StarWars Blog API will let you practice building a REST API using lightweight API frameworks like Express (for node) or Flask (for python) using SQLAlchemy ORM and Python language. while building a fun blog. Ideal for juniors looking to practice API development in python.",
+    "es": "La API del blog de StarWars te permitirá practicar la construcción de una API REST utilizando frameworks de API ligeros como Express (para node) o Flask (para python) utilizando SQLAlchemy ORM y el lenguaje Python, mientras construyes un blog divertido. Ideal para juniors que buscan practicar el desarrollo de API en python."
+  },
+  "title": {
+    "en": "Build a StarWars REST API",
+    "es": "Construye una API REST de StarWars"
+  },
   "projectType": "project",
   "slug": "exercise-starwars-blog-api"
 }

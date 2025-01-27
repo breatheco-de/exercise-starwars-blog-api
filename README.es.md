@@ -8,29 +8,27 @@ Hoy vamos a construir una API para administrar un blog (El StarWars Blog), los u
 
 Para permitir que los usuarios hagan todo esto, debemos seguir los siguientes pasos:
 
-1. Comienza por modelar la base de datos: crea una base de datos y las tablas necesarias para almacenar esa información, es posible que ya lo hayas hecho en el proyecto StarWars DataModeling en [python/flask](https://github.com/breatheco-de/exercise-starwars-data-modeling) o [node/express](https://github.com/breatheco-de/starwars-data-model-typeorm-node).
-2. Crea tus endpoints utilizando Flask o Express (según el lenguaje principal de tu clase).
+1. Comienza por modelar la base de datos: crea una base de datos y las tablas necesarias para almacenar esa información, es posible que ya lo hayas hecho en el proyecto StarWars DataModeling en [python/flask](https://github.com/breatheco-de/exercise-starwars-data-modeling).
+2. Crea tus endpoints utilizando Flask.
 3. Prueba constantemente tus endpoints con [Postman](https://www.postman.com/).
 
 ## 🌱 Cómo comenzar este proyecto
 
 No clones este repositorio porque vamos a usar una plantilla diferente.
 
-Recomendamos abrir el `flask template` o el `express.js template` usando un entorno de desarrollo como [Codespaces](https://4geeks.com/es/lesson/tutorial-de-github-codespaces) (recomendado) o [Gitpod](https://4geeks.com/es/lesson/como-utilizar-gitpod). Alternativamente, puedes clonarlo en tu computadora local usando el comando `git clone`.
+Recomendamos abrir el `flask template` usando un entorno de desarrollo como [Codespaces](https://4geeks.com/es/lesson/tutorial-de-github-codespaces) (recomendado) o [Gitpod](https://4geeks.com/es/lesson/como-utilizar-gitpod). Alternativamente, puedes clonarlo en tu computadora local usando el comando `git clone`.
 
-Estos son los repositorios que necesitas abrir o clonar:
+Este es el repositorio que necesitas abrir o clonar:
 
 ```text
 🐍 Para Python/Flask:
 https://github.com/4GeeksAcademy/flask-rest-hello
 
-👩🏽‍💻 Para Node/Express.js:
-https://github.com/4GeeksAcademy/expressjs-rest-hello
 ```
 
-> ⚠ Si trabajas localmente debes tener una base de datos y Node.js o Python 3.7+ pero si usas Codespaces o Gitpod ya viene todo instalado.
+> ⚠ Si trabajas localmente debes tener una base de datos y Python 3.7+ pero si usas Codespaces o Gitpod ya viene todo instalado.
 
-🐍 Para Python: El boilerplate tiene un archivo README con instrucciones y un video de como usarlo y como construir una API. Puedes hacer este tutorial interactivo primero sobre [como construir APIs con Flask](https://github.com/breatheco-de/python-flask-api-tutorial).
+El boilerplate tiene un archivo README con instrucciones y un video de como usarlo y como construir una API. Puedes hacer este tutorial interactivo primero sobre [como construir APIs con Flask](https://github.com/breatheco-de/python-flask-api-tutorial).
 
 **👉 Por favor sigue estos pasos sobre** [cómo comenzar un proyecto de programación](https://4geeks.com/es/lesson/como-comenzar-un-proyecto-de-codificacion).
 
@@ -62,8 +60,8 @@ Adicionalmente, necesitamos crear los siguientes endpoints para que podamos tene
 Este ejercicio te permitirá practicar las siguientes habilidades y conceptos:
 
 1. Construcción de APIs utilizando el standard REST (a.k.a: RESTful APIs).
-2. Construir una base de datos utilizando el **ORM** llamado [SQLAlchemy](https://www.sqlalchemy.org/) o [TypeORM](https://typeorm.io/).
-3. Utilizar y entender sistemas de migraciones de bases de datos con [Alembic](https://alembic.sqlalchemy.org/en/latest/) o las migraciones nativas de TypeORM (en el caso de node.js).
+2. Construir una base de datos utilizando el **ORM** llamado [SQLAlchemy](https://www.sqlalchemy.org/).
+3. Utilizar y entender sistemas de migraciones de bases de datos con [Alembic](https://alembic.sqlalchemy.org/en/latest/).
 
 ## 😎 Te sientes con confianza?
 
