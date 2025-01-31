@@ -16,13 +16,13 @@ To allow users to do all of this, we must follow these steps:
 
 Do not clone this repository because we are going to be using a different template.
 
-We recommend opening the `flask template` or the `express.js template` using a provisioning tool like [Codespaces](https://4geeks.com/lesson/what-is-github-codespaces) (recommended) or [Gitpod](https://4geeks.com/lesson/how-to-use-gitpod). Alternatively, you can clone it on your local computer using the `git clone` command.
+We recommend opening the `fastapi` or the `express.js template` using a provisioning tool like [Codespaces](https://4geeks.com/lesson/what-is-github-codespaces) (recommended) or [Gitpod](https://4geeks.com/lesson/how-to-use-gitpod). Alternatively, you can clone it on your local computer using the `git clone` command.
 
 These are the repositories you need to open or clone:
 
 ```txt
-🐍 For Python/Flask:
-https://github.com/4GeeksAcademy/flask-rest-hello
+🐍 For Python/FastApi:
+[https://github.com/4GeeksAcademy/fastapi-hello](https://github.com/4GeeksAcademy/fastapi-hello)
 
 👩🏽‍💻 For Node/Express.js:
 https://github.com/4GeeksAcademy/expressjs-rest-hello
