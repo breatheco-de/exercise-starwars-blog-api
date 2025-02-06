@@ -12,6 +12,8 @@ To allow users to do all of this, we must follow these steps:
 2. Build your endpoints using Flask or Express (depending on your cohort's main language).
 3. Constantly test your endpoints with [Postman](https://www.postman.com/).
 
+<onlyfor saas="false" withBanner="false">
+ 
 ## 🌱 How to start this project
 
 Do not clone this repository because we are going to be using a different template.
@@ -37,6 +39,8 @@ The boilerplate's README files have a video on how to start and complete your AP
 **👉 Please follow these steps on** [how to start a coding project](https://4geeks.com/lesson/how-to-start-a-project).
 
 > 💡 Important: Remember to save and upload your code to GitHub by creating a new repository, updating the remote (`git remote set-url origin <your new url>`), and uploading the code to your new repository using the `add`, `commit` and `push` commands from the git terminal.
+
+</onlyfor>
 
 ## 📝 Instructions
 

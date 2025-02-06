@@ -1,6 +1,7 @@
 {
   "difficulty": "easy",
   "duration": 8,
+  "template_url": ["https://github.com/4GeeksAcademy/flask-rest-hello", "https://github.com/4GeeksAcademy/expressjs-rest-hello"],
   "repository": "https://github.com/breatheco-de/exercise-starwars-api",
   "solution": "https://github.com/breatheco-de/exercise-starwars-blog-api/tree/solution",
   "preview": "https://github.com/breatheco-de/exercise-starwars-api/blob/main/.learn/assets/preview.png?raw=true",
@@ -10,5 +11,6 @@
   "description": "The StarWars Blog API will let you practice building a REST API using lightweight API frameworks like Express (for node) or Flask (for python) using SQLAlchemy ORM and Python language. while building a fun blog. Ideal for juniors looking to practice API development in python.",
   "title": "Build a StarWars REST API",
   "projectType": "project",
+  "autoPlay": "false",
   "slug": "exercise-starwars-blog-api"
 }
